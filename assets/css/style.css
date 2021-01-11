@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container{
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; 
+  flex-wrap: wrap;
+
+}
+
+.start-page, .quiz-content{
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.quiz-content, .quiz-content-buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-answer {
+  border-top: 1px solid lightgray;
+  color: lightgray;
+  font-size: large;
+  display: flex;
+  width: 60%;
+  margin: 20px auto;
+  justify-content: flex-start;
+}
+.submit-page, .high-scores {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.btn, .btn-ans {
+  border: none;
+  background-color: rgb(70, 3, 70);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: white;
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn:hover, .btn-ans:hover {
+  background-color: violet;
+}
+
+.header-button {
+  background: none;
+  border: none;
+  color: violet;
+  font-size: medium;
+}
